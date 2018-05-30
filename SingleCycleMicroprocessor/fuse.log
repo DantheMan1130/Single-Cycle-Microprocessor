@@ -1,0 +1,48 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/ProcessorStructural_isim_beh.exe -prj C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/ProcessorStructural_beh.prj work.ProcessorStructural work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/WriteMux.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/SrcMux.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/SignExtend.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/ResultMux.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/RegisterFile.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/ProgramCounter.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/PCReg.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/JumpMux.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/InstructionMemory.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/DataMemory.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/BranchMux.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/BranchAdder.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/ALU.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/Structural.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/Structural.v" Line 63: Size mismatch in connection of port <SrcB>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/Structural.v" Line 65: Size mismatch in connection of port <SrcB>. Formal port size is 32-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module BranchMux
+Compiling module JumpMux
+Compiling module PCReg
+Compiling module ProgramCounter
+Compiling module InstructionMemory
+Compiling module RegisterFile
+Compiling module ALU
+Compiling module SrcMux
+Compiling module SignExtend
+Compiling module ResultMux
+Compiling module DataMemory
+Compiling module WriteMux
+Compiling module BranchAdder
+Compiling module ControlUnit
+Compiling module ProcessorStructural
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\ProcessorStructural_isim_beh.exe.sim\libPortability.dll".
+Compiled 16 Verilog Units
+Built simulation executable C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/ProcessorStructural_isim_beh.exe
+Fuse Memory Usage: 28056 KB
+Fuse CPU Usage: 562 ms

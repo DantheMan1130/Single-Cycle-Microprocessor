@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/ALU.xst" -ofn "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessor/ALU.syr" 

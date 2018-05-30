@@ -1,0 +1,51 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/tb_SCuC_isim_beh.exe -prj C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/tb_SCuC_beh.prj work.tb_SCuC work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/WriteMux.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/SrcMux.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/SignExtend.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/ResultMux.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/RegisterFile.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/ProgramCounter.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/PCReg.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/JumpMux.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/JALMux.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/InstructionMemory.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/DataMemory.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/BranchMux.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/BranchAdder.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/ALU.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/ProcessorStructural.v" into library work
+Analyzing Verilog file "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/tb_SCuC.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/ProcessorStructural.v" Line 82: Port JAL is not connected to this instance
+Completed static elaboration
+Compiling module BranchMux
+Compiling module JumpMux
+Compiling module PCReg
+Compiling module ProgramCounter
+Compiling module InstructionMemory
+Compiling module JALMux
+Compiling module RegisterFile
+Compiling module ALU
+Compiling module SrcMux
+Compiling module SignExtend
+Compiling module ResultMux
+Compiling module DataMemory
+Compiling module WriteMux
+Compiling module BranchAdder
+Compiling module ControlUnit
+Compiling module ProcessorStructural
+Compiling module tb_SCuC
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\tb_SCuC_isim_beh.exe.sim\libPortability.dll".
+Compiled 18 Verilog Units
+Built simulation executable C:/Users/Dan/Desktop/Xilinx_ISE_DS_Win_14.7_1015_1/SingleCycleMicroprocessorNew/tb_SCuC_isim_beh.exe
+Fuse Memory Usage: 27480 KB
+Fuse CPU Usage: 577 ms
